@@ -7,9 +7,9 @@
 
 ){
 
-  .theme-background-color{ background-color: $background-color; }
-  .theme-background-image{ background-image: $background-image; }
-  .theme-text-primary{ color: $text-primary; }
-  .theme-text-secondary{ color: $text-secondary; }
+  .theme-background-color{ background-color: $background-color !important; }
+  .theme-background-image{ background-image: url($background-image) !important; }
+  .theme-text-primary{ color: $text-primary !important; }
+  .theme-text-secondary{ color: $text-secondary !important; }
 
 } //end
