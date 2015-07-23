@@ -9,3 +9,7 @@
 
 .theme-text-secondary {
   color: #bebebe !important; }
+
+#logo #branberg_logo:before,
+#logo #branberg_logo:after {
+  border-top-color: #1a1a1a; }

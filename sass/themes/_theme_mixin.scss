@@ -12,4 +12,9 @@
   .theme-text-primary{ color: $text-primary !important; }
   .theme-text-secondary{ color: $text-secondary !important; }
 
+  #logo #branberg_logo:before,
+  #logo #branberg_logo:after{
+    border-top-color: $text-primary;
+  }
+
 } //end
