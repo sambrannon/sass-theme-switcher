@@ -35,10 +35,14 @@
       margin-bottom: 0;
     }
 
-    &#theme-01{ background-color: #111111; }
-    &#theme-02{ background-color: #ffffff; }
+    &#theme-01{ background-color: #ffffff; }
+    &#theme-02{ background-color: #111111; }
     &#theme-03{ background-color: #3399ff; }
     &#theme-04{ background-color: #ec1c24; }
+
+    &.active{
+      border: solid 4px #cecece;
+    }
 
   }
 

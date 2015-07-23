@@ -23,6 +23,9 @@ $(document).ready(function(){
   // Load first theme right away
   $('head').append('<link id="theme-sheet" rel="stylesheet" type="text/css" href="' + themes[0]['path'] + '">');
 
+  // Set correct button with active state
+  $('button#'+themes[0]['id']).addClass('active');
+
   // Do everything when a button is clicked
   $('button[id^=theme-]').on('click', function(){
 
@@ -39,7 +42,14 @@ $(document).ready(function(){
       if( this.id == id ){
         $('head').append('<link id="theme-sheet" rel="stylesheet" type="text/css" href="' + this.path + '">');
       }
+
     });
+
+    // Remove active state from all button
+    $('button[id^=theme-]').removeClass('active');
+
+    // Add active state to clicked button
+    $(this).addClass('active');
 
   })
 
