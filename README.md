@@ -2,6 +2,8 @@
 
 A simple example of how to use Sass powers to make dynamic website themeing easier.
 
+![Example site screenshot](https://dl.dropboxusercontent.com/s/trnmq7r2prt3166/2015-07-22%20at%2011.30%20PM.png)
+
 ## Setup Instructions
 
 This example uses npm and Bower for asset managment. This guide assumes you already have npm installed on your system.
