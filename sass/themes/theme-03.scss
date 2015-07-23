@@ -1,0 +1,10 @@
+@import "theme_mixin";
+
+@include theme(
+
+  $background-color:    #3399ff,
+  $background-image:    "../../img/bg-theme-03.png",
+  $text-primary:        #ffffff,
+  $text-secondary:      darken(#3399ff, 20%)
+
+);

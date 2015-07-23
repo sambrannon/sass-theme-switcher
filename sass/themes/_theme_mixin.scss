@@ -1,0 +1,15 @@
+@mixin theme (
+
+  $background-color:    #ffffff,
+  $background-image:    "../../img/bg-theme-01.png",
+  $text-primary:        #1a1a1a,
+  $text-secondary:      #bebebe
+
+){
+
+  .theme-background-color{ background-color: $background-color; }
+  .theme-background-image{ background-image: $background-image; }
+  .theme-text-primary{ color: $text-primary; }
+  .theme-text-secondary{ color: $text-secondary; }
+
+} //end
