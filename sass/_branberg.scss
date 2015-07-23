@@ -1,4 +1,3 @@
-@import url(../bower_components/normalize.css/normalize.css);
 .wrap {
   max-width: 87.5%;
   margin: 0 auto;
@@ -51,70 +50,94 @@
   .wrap {
     max-width: 94.79%;
     padding: 0 20px; }
+
   .onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol, .twelvecol {
     margin-right: 2.13%; }
+
   .onecol {
     width: 6.38%; }
+
   .twocol {
     width: 14.89%; }
+
   .threecol {
     width: 23.4%; }
+
   .fourcol {
     width: 31.91%; }
+
   .fivecol {
     width: 37.42%; }
+
   .sixcol {
     width: 48.93%; }
+
   .sevencol {
     width: 57.44%; }
+
   .eightcol {
     width: 65.95%; }
+
   .ninecol {
     width: 74.46%; }
+
   .tencol {
     width: 82.97%; }
+
   .elevencol {
     width: 91.48%; }
+
   .twelvecol {
     width: 99.99%; } }
-
 @media only screen and (min-width: 1024px) {
   .wrap {
     max-width: 940px;
     padding: 0 10px; }
+
   .onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol, .twelvecol {
     margin-right: 2.13%; }
+
   .onecol {
     width: 6.38%; }
+
   .twocol {
     width: 14.89%; }
+
   .threecol {
     width: 23.4%; }
+
   .fourcol {
     width: 31.91%; }
+
   .fivecol {
     width: 37.42%; }
+
   .sixcol {
     width: 48.93%; }
+
   .sevencol {
     width: 57.44%; }
+
   .eightcol {
     width: 65.95%; }
+
   .ninecol {
     width: 74.46%; }
+
   .tencol {
     width: 82.97%; }
+
   .elevencol {
     width: 91.48%; }
+
   .twelvecol {
     width: 99.99%; }
+
   .last {
     margin-right: 0; } }
-
 .clearfix:before, .clearfix:after {
   content: "";
   display: table; }
-
 .clearfix:after {
   clear: both; }
 
@@ -235,14 +258,12 @@ perspective effects (not including the modals and the overlay).
   font-size: 1.5em;
   font-weight: 300;
   color: #bcbcbc; }
-
-.main_contact p,
-.secondary_contact p {
-  margin: 0; }
-
-.main_contact a,
-.secondary_contact a {
-  color: #bcbcbc; }
+  .main_contact p,
+  .secondary_contact p {
+    margin: 0; }
+  .main_contact a,
+  .secondary_contact a {
+    color: #bcbcbc; }
 
 .main_contact {
   position: absolute;
@@ -254,28 +275,22 @@ perspective effects (not including the modals and the overlay).
   left: 40px;
   right: 40px;
   overflow: hidden; }
-
-.secondary_contact .address {
-  float: left;
-  font-size: 0.75em;
-  position: relative;
-  top: 6px; }
-
-.secondary_contact .social {
-  float: right; }
-
-.secondary_contact .social a {
-  display: inline-block;
-  margin: 0 0 0 10px; }
-
-.secondary_contact .social i {
-  font-size: 1.2em; }
-
-.secondary_contact .social a:hover i.fa-twitter {
-  color: #55acee; }
-
-.secondary_contact .social a:hover i.fa-dribbble {
-  color: #ea4c89; }
+  .secondary_contact .address {
+    float: left;
+    font-size: 0.75em;
+    position: relative;
+    top: 6px; }
+  .secondary_contact .social {
+    float: right; }
+    .secondary_contact .social a {
+      display: inline-block;
+      margin: 0 0 0 10px; }
+    .secondary_contact .social i {
+      font-size: 1.2em; }
+    .secondary_contact .social a:hover i.fa-twitter {
+      color: #55acee; }
+    .secondary_contact .social a:hover i.fa-dribbble {
+      color: #ea4c89; }
 
 p.number {
   color: #1a1a1a;
@@ -299,9 +314,8 @@ html, body {
 a {
   color: #1a1a1a;
   text-decoration: none; }
-
-a:hover {
-  text-decoration: underline; }
+  a:hover {
+    text-decoration: underline; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
@@ -324,10 +338,9 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: opacity 0.15s ease-in-out;
   -o-transition: opacity 0.15s ease-in-out;
   transition: opacity 0.15s ease-in-out; }
-
-.button:hover {
-  text-decoration: none;
-  opacity: 0.85; }
+  .button:hover {
+    text-decoration: none;
+    opacity: 0.85; }
 
 /*************************************
 HEADER
@@ -344,66 +357,55 @@ header#main_header {
   -webkit-transition: opacity 0.15s ease-in-out;
   -o-transition: opacity 0.15s ease-in-out;
   transition: opacity 0.15s ease-in-out; }
-
-#logo:hover {
-  opacity: 0.7; }
-
-#logo #branberg_logo {
-  display: block;
-  width: 30px;
-  height: 30px;
-  position: relative;
-  overflow: hidden; }
-
-#logo #branberg_logo:before, #logo #branberg_logo:after {
-  position: absolute;
-  left: 0;
-  content: '';
-  display: block;
-  width: 23.1px;
-  height: 0;
-  border-top: solid 13.8px #000;
-  border-bottom: solid 13.8px rgba(255, 255, 255, 0);
-  border-right: solid 6.9px rgba(255, 255, 255, 0); }
-
-#logo #branberg_logo:before {
-  top: 0; }
-
-#logo #branberg_logo:after {
-  top: 16.2px; }
-
-#logo img {
-  display: block;
-  width: 100%;
-  height: auto; }
+  #logo:hover {
+    opacity: 0.7; }
+  #logo #branberg_logo {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    overflow: hidden; }
+    #logo #branberg_logo:before, #logo #branberg_logo:after {
+      position: absolute;
+      left: 0;
+      content: '';
+      display: block;
+      width: 23.1px;
+      height: 0;
+      border-top: solid 13.8px #000;
+      border-bottom: solid 13.8px rgba(255, 255, 255, 0);
+      border-right: solid 6.9px rgba(255, 255, 255, 0); }
+    #logo #branberg_logo:before {
+      top: 0; }
+    #logo #branberg_logo:after {
+      top: 16.2px; }
+  #logo img {
+    display: block;
+    width: 100%;
+    height: auto; }
 
 nav#main_nav {
   float: right;
   margin-top: 8px; }
-
-nav#main_nav ul {
-  margin: 0;
-  padding: 0; }
-
-nav#main_nav ul li {
-  list-style-type: none;
-  display: inline-block; }
-
-nav#main_nav ul li button {
-  border: none;
-  background: none;
-  outline: none; }
-
-nav#main_nav ul li a, nav#main_nav ul li button {
-  display: block;
-  padding: 6px 8px; }
-
-nav#main_nav ul li.current_page a,
-nav#main_nav ul li.current_page button,
-nav#main_nav ul li a:hover,
-nav#main_nav ul li button:hover {
-  text-decoration: none;
-  color: #bebebe; }
+  nav#main_nav ul {
+    margin: 0;
+    padding: 0; }
+    nav#main_nav ul li {
+      list-style-type: none;
+      display: inline-block; }
+      nav#main_nav ul li button {
+        border: none;
+        background: none;
+        outline: none; }
+      nav#main_nav ul li a, nav#main_nav ul li button {
+        display: block;
+        padding: 6px 8px; }
+    nav#main_nav ul li.current_page a,
+    nav#main_nav ul li.current_page button,
+    nav#main_nav ul li a:hover,
+    nav#main_nav ul li button:hover {
+      text-decoration: none;
+      color: #bebebe; }
 
 /*************************************
 HOMEPAGE
@@ -415,7 +417,7 @@ body.homepage #homepage_background {
   bottom: 0;
   left: 0;
   position: fixed;
-  background: #ffffff url("http://branberg.com/library/img/background.png") 0 0 repeat scroll;
+  background: #ffffff url('http://branberg.com/library/img/background.png') 0 0 repeat scroll;
   -webkit-background-size: 450px;
   -moz-background-size: 450px;
   -o-background-size: 450px;
@@ -428,14 +430,12 @@ body.homepage #homepage_background {
   text-align: center;
   border-top: solid 1px #efefef;
   border-bottom: solid 1px #efefef; }
-
-#homepage_content h1 {
-  margin: 0 0 0.3em 0; }
-
-#homepage_content h2 {
-  color: #bebebe;
-  font-weight: 300;
-  margin: 0; }
+  #homepage_content h1 {
+    margin: 0 0 0.3em 0; }
+  #homepage_content h2 {
+    color: #bebebe;
+    font-weight: 300;
+    margin: 0; }
 
 /*************************************
 CONTENT
@@ -443,13 +443,12 @@ CONTENT
 #content {
   background: #ffffff;
   min-height: 300px; }
-
-#content h1 {
-  font-weight: 300;
-  font-size: 1.5em;
-  padding: 20px;
-  text-align: center;
-  margin: 0; }
+  #content h1 {
+    font-weight: 300;
+    font-size: 1.5em;
+    padding: 20px;
+    text-align: center;
+    margin: 0; }
 
 /*************************************
 STUDIO
@@ -463,42 +462,36 @@ WORK
 ul#client_list {
   margin: 0;
   padding: 20px 0; }
-
-ul#client_list li {
-  display: block;
-  float: left;
-  width: 50%;
-  padding: 10%;
-  text-align: center; }
-
-ul#client_list a {
-  display: block; }
-
-ul#client_list img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%; }
+  ul#client_list li {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 10%;
+    text-align: center; }
+  ul#client_list a {
+    display: block; }
+  ul#client_list img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; }
 
 #work_container {
   margin-top: 2em; }
-
-#work_container ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none; }
-
-#work_container li {
-  display: block;
-  width: 100%;
-  float: left;
-  position: relative; }
-
-#work_container img {
-  display: block;
-  width: 100%;
-  height: auto;
-  position: relative;
-  z-index: 1; }
+  #work_container ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+  #work_container li {
+    display: block;
+    width: 100%;
+    float: left;
+    position: relative; }
+  #work_container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1; }
 
 .work_label {
   font-weight: 300;
@@ -507,31 +500,27 @@ ul#client_list img {
   background: #1a1a1a;
   color: #ffffff;
   position: relative; }
-
-.work_label:after {
-  display: table;
-  content: '';
-  clear: both; }
-
-.work_label .label {
-  padding: 20px 96px 20px 20px;
-  float: left;
-  width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis; }
-
-.work_label .label span {
-  font-weight: 700;
-  margin-right: 6px; }
-
-.work_label a.button {
-  color: #ffffff;
-  float: right;
-  border-color: #ffffff;
-  position: absolute;
-  top: 12px;
-  right: 12px; }
+  .work_label:after {
+    display: table;
+    content: '';
+    clear: both; }
+  .work_label .label {
+    padding: 20px 96px 20px 20px;
+    float: left;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+    .work_label .label span {
+      font-weight: 700;
+      margin-right: 6px; }
+  .work_label a.button {
+    color: #ffffff;
+    float: right;
+    border-color: #ffffff;
+    position: absolute;
+    top: 12px;
+    right: 12px; }
 
 .overlay {
   display: none;
@@ -551,19 +540,16 @@ footer#main_footer {
   color: #bebebe;
   padding: 30px;
   font-family: "Montserrat", sans-serif; }
-
-footer#main_footer ul {
-  margin: 0;
-  padding: 0; }
-
-footer#main_footer ul li {
-  list-style-type: none;
-  display: block;
-  padding: 8px; }
-
-footer#main_footer ul li a {
-  color: #bebebe;
-  text-decoration: underline; }
+  footer#main_footer ul {
+    margin: 0;
+    padding: 0; }
+    footer#main_footer ul li {
+      list-style-type: none;
+      display: block;
+      padding: 8px; }
+      footer#main_footer ul li a {
+        color: #bebebe;
+        text-decoration: underline; }
 
 /*************************************
 Contact Modal
@@ -603,10 +589,8 @@ Contact Modal
   margin: 0;
   background: #f8f8f8;
   padding: 20px; }
-
 .modal_content > div {
   padding: 20px; }
-
 .modal_content p {
   margin-top: 0; }
 
@@ -651,11 +635,11 @@ Contact Modal
   ul#client_list li {
     width: 33.33%;
     padding: 8%; }
+
   #work_container li {
     display: block;
     width: 50%;
     float: left; } }
-
 @media only screen and (min-width: 768px) {
   /*************************************
   GLOBALS
@@ -665,34 +649,37 @@ Contact Modal
   *************************************/
   header#main_header {
     padding: 55px; }
+
   #logo {
     width: 45px;
     padding: 0; }
-  #logo #branberg_logo {
-    display: block;
-    width: 45px;
-    height: 45px;
-    position: relative;
-    overflow: hidden; }
-  #logo #branberg_logo:before, #logo #branberg_logo:after {
-    position: absolute;
-    left: 0;
-    content: '';
-    display: block;
-    width: 34.65px;
-    height: 0;
-    border-top: solid 20.7px #000;
-    border-bottom: solid 20.7px rgba(255, 255, 255, 0);
-    border-right: solid 10.35px rgba(255, 255, 255, 0); }
-  #logo #branberg_logo:before {
-    top: 0; }
-  #logo #branberg_logo:after {
-    top: 24.3px; }
+    #logo #branberg_logo {
+      display: block;
+      width: 45px;
+      height: 45px;
+      position: relative;
+      overflow: hidden; }
+      #logo #branberg_logo:before, #logo #branberg_logo:after {
+        position: absolute;
+        left: 0;
+        content: '';
+        display: block;
+        width: 34.65px;
+        height: 0;
+        border-top: solid 20.7px #000;
+        border-bottom: solid 20.7px rgba(255, 255, 255, 0);
+        border-right: solid 10.35px rgba(255, 255, 255, 0); }
+      #logo #branberg_logo:before {
+        top: 0; }
+      #logo #branberg_logo:after {
+        top: 24.3px; }
+
   nav#main_nav {
     font-size: 1.2em;
     margin-top: 6px; }
-  nav#main_nav ul li {
-    margin-left: 16px; }
+    nav#main_nav ul li {
+      margin-left: 16px; }
+
   /*************************************
   HOMEPAGE
   *************************************/
@@ -706,6 +693,7 @@ Contact Modal
     width: 100%;
     bottom: 0;
     left: 0; }
+
   #homepage_content {
     border: none;
     padding: 55px;
@@ -718,8 +706,9 @@ Contact Modal
     -ms-transform: translateY(-60%);
     -o-transform: translateY(-60%);
     transform: translateY(-60%); }
-  #homepage_content h1 {
-    font-size: 3em; }
+    #homepage_content h1 {
+      font-size: 3em; }
+
   /*************************************
   STUDIO
   *************************************/
@@ -729,22 +718,22 @@ Contact Modal
   ul#client_list li {
     width: 25%;
     padding: 6%; }
+
   /*************************************
   FOOTER
   *************************************/
   footer#main_footer {
     padding: 55px;
     font-size: 0.85em; }
-  footer#main_footer ul li {
-    display: block;
-    float: left; }
-  footer#main_footer ul li a {
-    text-decoration: none; }
-  footer#main_footer ul li a:hover {
-    color: #1a1a1a; }
-  footer#main_footer ul li.right_align {
-    float: right; } }
-
+    footer#main_footer ul li {
+      display: block;
+      float: left; }
+      footer#main_footer ul li a {
+        text-decoration: none; }
+        footer#main_footer ul li a:hover {
+          color: #1a1a1a; }
+    footer#main_footer ul li.right_align {
+      float: right; } }
 @media only screen and (min-width: 1024px) {
   /*************************************
   GLOBALS
@@ -754,8 +743,9 @@ Contact Modal
   *************************************/
   nav {
     font-size: 1.3em; }
-  nav ul li {
-    margin-left: 30px; }
+    nav ul li {
+      margin-left: 30px; }
+
   /*************************************
   HOMEPAGE
   *************************************/
@@ -763,12 +753,13 @@ Contact Modal
     font-size: 3.8em; }
   #homepage_content h2 {
     font-size: 2em; }
+
   /*************************************
   FOOTER
   *************************************/
   footer#main_footer {
     font-size: 1.15em; }
-  footer#main_footer ul li {
-    margin-right: 30px; }
-  footer#main_footer ul li.right_align {
-    margin-right: 0; } }
+    footer#main_footer ul li {
+      margin-right: 30px; }
+    footer#main_footer ul li.right_align {
+      margin-right: 0; } }
