@@ -420,8 +420,7 @@ body.homepage #homepage_background {
   -moz-background-size: 450px;
   -o-background-size: 450px;
   background-size: 450px;
-  z-index: 0;
-  opacity: 0.5; }
+  z-index: 0; }
 
 #homepage_content {
   padding: 30px;
