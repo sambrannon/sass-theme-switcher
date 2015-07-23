@@ -8,11 +8,11 @@ This example uses npm and Bower for asset managment. This guide assumes you alre
 
 First install npm packages from the project directory
 
-  $ npm install
+    $ npm install
 
 To edit styles, you'll need to run Gulp to process the Sass
 
-  $ gulp
+    $ gulp
 
 This will leave set up Gulp to watch the scss directory
 
