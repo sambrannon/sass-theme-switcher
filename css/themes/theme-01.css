@@ -1,11 +1,11 @@
 .theme-background-color {
-  background-color: #ffffff; }
+  background-color: #ffffff !important; }
 
 .theme-background-image {
-  background-image: "../../img/bg-theme-01.png"; }
+  background-image: url("../../img/bg-theme-01.png") !important; }
 
 .theme-text-primary {
-  color: #1a1a1a; }
+  color: #1a1a1a !important; }
 
 .theme-text-secondary {
-  color: #bebebe; }
+  color: #bebebe !important; }
