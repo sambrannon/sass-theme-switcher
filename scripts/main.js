@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+  // Create an array of theme IDs and locations
   var themes = [
     {
       id: "theme-01",
@@ -22,13 +23,11 @@ $(document).ready(function(){
   // Load first theme right away
   $('head').append('<link id="theme-sheet" rel="stylesheet" type="text/css" href="' + themes[0]['path'] + '">');
 
+  // Do everything when a button is clicked
   $('button[id^=theme-]').on('click', function(){
 
-    console.log(themes);
     // set id from button id
     var id = $(this).attr('id');
-
-    console.log(id);
 
     // wipe out theme link tag
     $('#theme-sheet').remove();
