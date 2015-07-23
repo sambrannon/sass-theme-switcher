@@ -772,3 +772,39 @@ Contact Modal
     margin-right: 30px; }
   footer#main_footer ul li.right_align {
     margin-right: 0; } }
+
+#theme-switcher {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 9999;
+  background: #f8f8f8;
+  border-radius: 0 6px 6px 0;
+  padding: 20px;
+  border: solid 1px #ccc;
+  border-left: none; }
+  #theme-switcher button {
+    display: block;
+    margin: 0 0 10px 0;
+    padding: 0;
+    border: solid 1px #333;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    text-indent: -9999px;
+    opacity: 0.8;
+    transition: opacity 0.015s ease-in-out; }
+    #theme-switcher button:hover {
+      opacity: 1; }
+    #theme-switcher button:last-child {
+      margin-bottom: 0; }
+    #theme-switcher button#theme-01 {
+      background-color: #111111; }
+    #theme-switcher button#theme-02 {
+      background-color: #ffffff; }
+    #theme-switcher button#theme-03 {
+      background-color: #3399ff; }
+    #theme-switcher button#theme-04 {
+      background-color: #ec1c24; }
