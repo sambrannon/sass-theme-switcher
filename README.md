@@ -2,7 +2,7 @@
 
 A simple example of how to use Sass powers to make dynamic website themeing easier.
 
-![Example site screenshot](https://dl.dropboxusercontent.com/s/trnmq7r2prt3166/2015-07-22 at 11.30 PM.png)
+![2016-02-18 at 11 40 am](https://cloud.githubusercontent.com/assets/7304891/13152392/90e3d410-d634-11e5-9fba-e2e6f1024d3e.png)
 
 ## Setup Instructions
 
